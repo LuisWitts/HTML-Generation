@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.carousel-item img 
+{
+    width: 90%;
+    height: 380px;
+    
+}
+.container
+{
+    margin: 10%;
+}
+
