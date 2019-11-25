@@ -8,39 +8,46 @@
 	<meta name="description" content="lading page">
 	<meta name="author" content="Luis Witts">
 	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 	
 	<!--Logo do topo-->
 	<div class="center">
-	<img src="assets/images/logogif.GIF" alt="logo monstro">
+	
+	<img src="assets/images/logogif.GIF" class="img-fluid" alt="logo responsivo">
 	</div>	
 	<!--Menu-->
-	<div id="center2">
-	<ul>
-		<li>Register</li>
-		<a href="index.html"><li>Home</li></a>
-		<li>
-			<a href="https://matrizskateshop.com.br/" target="_black,
+	<div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 			
-			
-			
-			
-			
-			
-			
-			,,,,">
-				Loja Virtual
-			</a>
-		</li>
-		<li>Contato</li>
-		<li>
-			<a href="https://www.google.com/maps?sxsrf=ACYBGNQC81Y0BA4wmgffm4XzCt1Z3QXSQA:1574362146920&q=como+chegar+matriz+skate+shop&uact=5&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjT3oiJ_PvlAhV0BtQKHcMxCdYQ_AUoAXoECA4QAw" target="_blank">
-			Como chegar
-			</a>
-		</li>
-	</ul>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link home" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="assets/html/fotos.html">Skaters</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link " href="assets/html/formulario.html" tabindex="-1" aria-disabled="true">Formulário</a>
+				</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+			</nav>
 	</div>
 	<h1 class="titulo">
 			<em class="center">
@@ -52,7 +59,7 @@
 	<div class="center">
 	
 	</div>
-
+	<img height="300" width="250" class="redondo"  class="img-fluid" src="assets/images/sp.jpg" alt="">
 		<p>
 				Skate Punk é um estilo de música, sub-gênero do punk rock, ligado à cultura do skate, utilizando comumente referências a ela tanto nos aspectos rítmicos quanto nos temáticos. Sua origem está ligada à marginalização e o estereótipo negativo associado aos skatistas no começo da década de 1980, nos Estados Unidos.
 
@@ -63,7 +70,7 @@
 				No Brasil, as primeiras bandas de skate punk foram o Grinders, o Pakdermes e o Necrópole. Dessa primeira leva, a banda que se destacou foi o Grinders, que participou da coletânea Ataque Sonoro em 1985, lançou um álbum homônimo em 1987 e participou da coletânea Independência ou Morte!. A partir da década de 90 as bandas Charlie Brown Jr, Neurônios Alucinados e Gritando HC se destacaram neste seguimento.
 			
 		</p>
-	<img class="redondo" src="assets/images/skatepunk.jpeg" alt="foto skate punk">
+	<img height="360px" height="250" class="redondo" src="assets/images/skatepunk.jpeg"  alt="foto skate punk">
 	
 	</div>
 	<div class="center" >
@@ -78,13 +85,29 @@
 	</div>
 	<div class="center">
 
-			<img class="redondo" src="assets/images/skategangsta.jpg" alt="">
+			<img height="350" width="500" class="redondo" src="assets/images/skategangsta.jpg" alt="">
 			
 			<p>
 					Inspirado pelos Gangster Skateboarders originais de São Francisco e Los Angeles, que apareceram em vários vídeos de skate a partir de meados dos anos 90, realizando linhas de tecnologia simétrica no pier 7, escolas de ensino médio de Los Angeles em bancos de piquenique e locais de sacramento. As seções de skate sempre tinham música hip hop e rap ajustada para o skate, com os truques sendo lançados a tempo das batidas da música. O skate era geralmente técnico e progressivo, as roupas eram geralmente folgadas, muitos dos skatistas eramafro-americanos e hispânicos, e geralmente de famílias pobres que vivem em partes pobres da cidade e em guetos genuínos.
 					Inspirado pelos Gangster Skateboarders originais de São Francisco e Los Angeles, que apareceram em vários vídeos de skate a partir de meados dos anos 90, realizando linhas de tecnologia simétrica no pier 7, escolas de ensino médio de Los Angeles em bancos de piquenique e locais de sacramento. As seções de skate sempre tinham música hip hop e rap ajustada para o skate, com os truques sendo lançados a tempo das batidas da música. O skate era geralmente técnico e progressivo, as roupas eram geralmente folgadas, muitos dos skatistas eramafro-americanos e hispânicos, e geralmente de famílias pobres que vivem em partes pobres da cidade e em guetos genuínos.Inspirado pelos Gangster Skateboarders originais de São Francisco e Los Angeles, que apareceram em vários vídeos de skate a partir de meados dos anos 90, realizando linhas de tecnologia simétrica no pier 7, escolas de ensino médio de Los Angeles em bancos de piquenique e locais de sacramento. As seções de skate sempre tinham música hip hop e rap ajustada para o skate, com os truques sendo lançados a tempo das batidas da música. O skate era geralmente técnico e progressivo, as roupas eram geralmente folgadas, muitos dos skatistas eramafro-americanos e hispânicos, e geralmente de famílias pobres que vivem em partes pobres da cidade e em guetos genuínos.
 			</p>
-			<img class="redondo" src="assets/images/skate.jpeg" alt="">
+			<img height="350" width="500" class="redondo" src="assets/images/skate.jpeg" alt="">
+	</div>
+	<div class="center">
+
+			<iframe width="500" height="380" src="https://www.youtube.com/embed/fJuapp9SORA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			<iframe width="500" height="380" src="https://www.youtube.com/embed/M9QfooSGICA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			<iframe width="500" height="380" src="https://www.youtube.com/embed/KvOouXyUfE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	</div>
+	<div>
+		<footer>
+			
+				Projetado e construído com todo o amor do mundo por Luis Witts.
+			
+		</footer>
 	</div>
 </body>
 </html>
